@@ -23,7 +23,7 @@ shape_msgs/Mesh[] meshes
 geometry_msgs/Pose[] mesh_poses
 
 # Neural Objects
-Network[] networks
+shape_msgs/Network[] networks
 geometry_msgs/Pose[] network_poses
 
 # Bounding planes (equation is specified, but the plane can be oriented using an additional pose)
